@@ -1,3 +1,9 @@
+" Load pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+
+" Load other modules with pathogen
+execute pathogen#infect()
+
 " Set syntax on
 syntax on
 
