@@ -1,6 +1,3 @@
-" Load modules with pathogen
-execute pathogen#infect()
-
 " Set syntax on
 syntax on
 
