@@ -5,9 +5,6 @@ syntax on
 filetype indent on
 set autoindent
 
-if has('gui_running')
-  set guifont=Monospace\ 11
-endif
 
 " General
 set number	" Show line numbers
