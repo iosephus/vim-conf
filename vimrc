@@ -8,9 +8,9 @@ execute pathogen#infect()
 syntax on
 
 " Indent automatically depending on filetype
-filetype indent on
-set autoindent
-
+filetype plugin indent on
+"filetype indent on
+"set autoindent
 
 " General
 set number	" Show line numbers
