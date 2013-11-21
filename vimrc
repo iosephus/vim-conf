@@ -9,26 +9,26 @@ if has('gui_running')
   set guifont=Monospace\ 11
 endif
 
-# General
-set number	# Show line numbers
-set showbreak=+++	# Wrap-broken line prefix
-set showmatch	# Highlight matching brace
-set visualbell	# Use visual bell (no beeping)
+" General
+set number	" Show line numbers
+set showbreak=+++	" Wrap-broken line prefix
+set showmatch	" Highlight matching brace
+set visualbell	" Use visual bell (no beeping)
  
-set hlsearch	# Highlight all search results
-set smartcase	# Enable smart-case search
-set ignorecase	# Always case-insensitive
-set incsearch	# Searches for strings incrementally
+set hlsearch	" Highlight all search results
+set smartcase	" Enable smart-case search
+set ignorecase	" Always case-insensitive
+set incsearch	" Searches for strings incrementally
  
-set shiftwidth=4	# Number of auto-indent spaces
-set softtabstop=4	# Number of spaces per Tab
+set shiftwidth=4	" Number of auto-indent spaces
+set softtabstop=4	" Number of spaces per Tab
  
-## Advanced
-set confirm	# Prompt confirmation dialogs
-set ruler	# Show row and column ruler information
+" Advanced
+set confirm	" Prompt confirmation dialogs
+set ruler	" Show row and column ruler information
  
-set undolevels=1000	# Number of undo levels
-set backspace=indent,eol,start	# Backspace behaviour
+set undolevels=1000	" Number of undo levels
+set backspace=indent,eol,start	" Backspace behaviour
 set nobackup
 set cursorline
 
