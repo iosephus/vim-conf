@@ -43,6 +43,9 @@ set wildmode=list:longest
 set scrolloff=5               " keep at least 5 lines above/below
 set sidescrolloff=5           " keep at least 5 lines left/right
 
+colors slate
+autocmd VimEnter * SetColors slate delek
+
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
     \ ['Darkblue',    'SeaGreen3'],
