@@ -6,9 +6,12 @@ This setup uses git submodules for managing Vim plugins independently. Each plug
 
 # Setup
 
-After cloning the main repo you'll get the bundle directory with empty directories for each submodule. Run *git submodule init*, followed by *git submodule update* to download the submodules contents from their repos.
+After cloning the main repo you'll get the bundle directory with empty directories for each submodule. Run *git submodule init* in the directory just created by the clone operation, followed by *git submodule update* to download the submodules contents from their repos.
 
 Create symbolic links in your home directory to the files *vimrc* and *gvimrc* using the commands *ln -s ~/.vim/vimrc ~/.vimrc* and *ln -s ~/.vim/gvimrc ~/.gvimrc*.
+
+# Adding submodules
+Use *git submodule add <plugin-URI> bundle/<plugin-name>*, followed by a *git add .* and a *git commit -am "Add plugin <plugin-name> as submodule"*.
 
 # Updating submodules
 
