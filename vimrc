@@ -72,3 +72,14 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+
+" Lines added by the Vim-R-plugin command :RpluginConfig (2014-May-07 18:07):
+set nocompatible
+
+" There are hundreds of color schemes for Vim on the internet, but you can
+" start with color schemes already installed.
+" Click on GVim menu bar "Edit / Color scheme" to know the name of your
+" preferred color scheme, then, remove the double quote (which is a comment
+" character, like the # is for R language) and replace the value "not_defined"
+" below:
+"colorscheme not_defined
