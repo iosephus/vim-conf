@@ -16,3 +16,6 @@
 [submodule "bundle/vim-r-plugin"]
 	path = bundle/vim-r-plugin
 	url = git://github.com/vim-scripts/Vim-R-plugin
+[submodule "bundle/screen-vim---gnu-screentmux"]
+	path = bundle/screen-vim---gnu-screentmux
+	url = git://github.com/vim-scripts/Screen-vim---gnu-screentmux
