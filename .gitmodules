@@ -13,3 +13,6 @@
 [submodule "bundle/vim-colorscheme-switcher"]
 	path = bundle/vim-colorscheme-switcher
 	url = https://github.com/twe4ked/vim-colorscheme-switcher.git
+[submodule "bundle/vim-r-plugin"]
+	path = bundle/vim-r-plugin
+	url = git://github.com/vim-scripts/Vim-R-plugin
