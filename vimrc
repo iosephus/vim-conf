@@ -34,6 +34,7 @@ set backspace=indent,eol,start	" Backspace behaviour
 set nobackup
 set cursorline
 
+
 " show auto complete menus.
 set wildmenu
 
@@ -44,7 +45,12 @@ set scrolloff=5               " keep at least 5 lines above/below
 set sidescrolloff=5           " keep at least 5 lines left/right
 
 colors slate
-autocmd VimEnter * SetColors slate delek
+autocmd VimEnter * SetColors slate
+
+set textwidth=80
+set colorcolumn=+1
+hi ColorColumn guibg=#6a3131
+highlight CursorLine guibg=Grey22
 
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
