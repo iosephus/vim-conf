@@ -44,6 +44,12 @@ set wildmode=list:longest
 set scrolloff=5               " keep at least 5 lines above/below
 set sidescrolloff=5           " keep at least 5 lines left/right
 
+"change the mapleader from \ to ,
+let mapleader=","
+" Quickly edit/reload the vimrc file
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+"
 colors slate
 autocmd VimEnter * SetColors slate
 
