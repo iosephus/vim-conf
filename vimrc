@@ -1,8 +1,24 @@
+" Of course
+set nocompatible
+
+" Required Vundle setup
+filetype off
+set runtimepath+=~/.vim/bundle/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'vim-scripts/paredit.vim'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'guns/vim-clojure-static'
+Bundle 'vim-scripts/Vim-R-plugin'
+
+
 " Load pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+"runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 " Load other modules with pathogen
-execute pathogen#infect()
+"execute pathogen#infect()
 
 " Set syntax on
 syntax on
