@@ -4,27 +4,23 @@ set nocompatible
 " Required Vundle setup
 filetype off
 set runtimepath+=~/.vim/bundle/vundle
-call vundle#rc()
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle 'vim-scripts/paredit.vim'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'guns/vim-clojure-static'
-Bundle 'vim-scripts/Vim-R-plugin'
+Plugin 'klen/python-mode'
+Plugin 'vim-scripts/taglist.vim'
+Plugin 'vim-scripts/paredit.vim'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'guns/vim-clojure-static'
+Plugin 'vim-scripts/Vim-R-plugin'
 
-
-" Load pathogen
-"runtime bundle/vim-pathogen/autoload/pathogen.vim
-
-" Load other modules with pathogen
-"execute pathogen#infect()
-
-" Set syntax on
-syntax on
+call vundle#end()
 
 " Indent automatically depending on filetype
 filetype plugin indent on
+" Set syntax on
+syntax on
 "filetype indent on
 "set autoindent
 
@@ -67,7 +63,6 @@ nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 "
 colors slate
-autocmd VimEnter * SetColors slate
 
 set textwidth=80
 set colorcolumn=+1
