@@ -14,6 +14,11 @@ Plugin 'vim-scripts/paredit.vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'guns/vim-clojure-static'
 Plugin 'vim-scripts/Vim-R-plugin'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-dispatch'
+Plugin 'OmniSharp/omnisharp-vim'
+
 
 call vundle#end()
 
