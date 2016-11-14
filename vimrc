@@ -3,22 +3,15 @@ set nocompatible
 
 " Required Vundle setup
 filetype off
-set runtimepath+=~/.vim/bundle/vundle
+set runtimepath+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'klen/python-mode'
-Plugin 'vim-scripts/taglist.vim'
 Plugin 'vim-scripts/paredit.vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'guns/vim-clojure-static'
-Plugin 'vim-scripts/Vim-R-plugin'
-Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-dispatch'
-Plugin 'OmniSharp/omnisharp-vim'
-
 
 call vundle#end()
 
@@ -49,7 +42,6 @@ set ruler	" Show row and column ruler information
 set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 set nobackup
-set cursorline
 
 
 " show auto complete menus.
@@ -68,6 +60,8 @@ nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 "
 colors slate
+set cursorline
+hi CursorLine term=None cterm=None guibg=Grey40
 
 set textwidth=80
 set colorcolumn=+1

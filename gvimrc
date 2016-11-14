@@ -1,2 +1,2 @@
 
-set guifont=Monospace\ 14
+set guifont=Monospace\ 13
